@@ -4,8 +4,6 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Civan+%E2%80%94+they+call+me+Stark.;Software+Engineer+in+the+making.;Building+the+future%2C+one+commit+at+a+time.;Sometimes+you+gotta+run+before+you+can+walk." alt="Typing SVG" />
 
-<img src="https://komarev.com/ghpvc/?username=civanorak&color=00d9ff&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" />
-
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
