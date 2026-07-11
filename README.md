@@ -57,14 +57,32 @@
 
 ## 🚀 Featured Projects
 
+### 🎼 Orkestra — Autonomous Agent Corporation &nbsp;`🔒 private · in active development`
+
+An autonomous multi-agent system that detects the digital problems of small e-commerce brands **before they notice them** — then packages the fix and sells it as a monthly subscription service.
+
+- **Pipeline:** Decoder (SEO / performance / traffic / competitor intel) → Outreach Master (personalized DM + email pitch) → Solver (client-ready HTML report + code package)
+- **5 of 14 agents live** — Decoder, Sentinel, Outreach Master, Solver, UX Surgeon; the rest unlock behind revenue gates
+- **1650+ green tests** and a measurement-first honesty rule: if it wasn't measured, it never reaches a report
+- Python · asyncio · FastAPI · Pydantic v2 · Playwright · Lighthouse · SQLite WAL
+
+### 🏛️ AGORA — Analytics for the Agentic Web &nbsp;`🔒 private · demo-ready`
+
+Classic analytics assume a human with a JS-executing browser; bot protection blocks everything else. Neither sees AI shopping agents (ChatGPT, Claude, Perplexity…) crawling a store. AGORA makes that traffic visible — and audits whether a storefront is even *readable* to agents in the first place.
+
+- **Sees agent traffic** — drop-in ASGI middleware classifies every request (`{verdict, confidence, evidence[]}`) against YAML signatures and streams it to a live dashboard
+- **Audits any storefront** — diffs the real catalog against what an agent can actually parse: script-to-content ratio, extractable-text %, schema.org / robots.txt / llms.txt checklist
+- **Generates the fix** — a ready-to-host `/llms.txt` for the audited store, downloadable straight from the dashboard
+- FastAPI · React + Vite · rule-engine classifier · Playwright e2e
+
+### More
+
 <div align="center">
 
 <a href="https://github.com/civanorak/AutoDocGenerator"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=civanorak&repo=AutoDocGenerator&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF" alt="AutoDocGenerator" /></a>
 <a href="https://github.com/civanorak/Portfolio"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=civanorak&repo=Portfolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF" alt="Portfolio" /></a>
 
 </div>
-
-> 🔒 **AGORA** *(private, in development)* — audit platform that scores e-commerce sites on **AI-agent readability**: crawls a store, diffs what human shoppers see vs. what AI agents can parse, and reports actionable fixes. FastAPI · PostgreSQL · rule engine.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
@@ -97,33 +115,9 @@
 
 ## 🔬 Currently Building
 
-- ⚙️ **AGORA** — an audit platform that scores e-commerce sites on AI-agent readability (FastAPI + PostgreSQL + rule engine), because the next customers of every store will be agents, not browsers
-- 🚀 *[Placeholder — next project / experiment]*
-- 📚 *[Placeholder — what you're learning right now]*
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
-<!-- ═══════════════════════ TIC-TAC-TOE ═══════════════════════ -->
-
-## 🎮 Beat My Bot — Tic-Tac-Toe
-
-You are ❌, my bot is ⭕. Click an empty square → an issue opens pre-filled → hit **Submit new issue** → the board updates here in ~30 seconds. The whole thing runs on GitHub Actions.
-
-<!-- TTT-BOARD-START -->
-<div align="center">
-
-<table>
-<tr><td><a href="https://github.com/civanorak/civanorak/issues/new?title=ttt%7Cmove%7C0&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A%20%E2%80%94%20the%20board%20on%20my%20profile%20updates%20automatically%20in%20~30%20seconds."><img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/ttt/empty.svg" width="70" height="70" alt="empty square 0" /></a></td><td><a href="https://github.com/civanorak/civanorak/issues/new?title=ttt%7Cmove%7C1&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A%20%E2%80%94%20the%20board%20on%20my%20profile%20updates%20automatically%20in%20~30%20seconds."><img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/ttt/empty.svg" width="70" height="70" alt="empty square 1" /></a></td><td><a href="https://github.com/civanorak/civanorak/issues/new?title=ttt%7Cmove%7C2&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A%20%E2%80%94%20the%20board%20on%20my%20profile%20updates%20automatically%20in%20~30%20seconds."><img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/ttt/empty.svg" width="70" height="70" alt="empty square 2" /></a></td></tr>
-<tr><td><a href="https://github.com/civanorak/civanorak/issues/new?title=ttt%7Cmove%7C3&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A%20%E2%80%94%20the%20board%20on%20my%20profile%20updates%20automatically%20in%20~30%20seconds."><img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/ttt/empty.svg" width="70" height="70" alt="empty square 3" /></a></td><td><a href="https://github.com/civanorak/civanorak/issues/new?title=ttt%7Cmove%7C4&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A%20%E2%80%94%20the%20board%20on%20my%20profile%20updates%20automatically%20in%20~30%20seconds."><img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/ttt/empty.svg" width="70" height="70" alt="empty square 4" /></a></td><td><a href="https://github.com/civanorak/civanorak/issues/new?title=ttt%7Cmove%7C5&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A%20%E2%80%94%20the%20board%20on%20my%20profile%20updates%20automatically%20in%20~30%20seconds."><img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/ttt/empty.svg" width="70" height="70" alt="empty square 5" /></a></td></tr>
-<tr><td><a href="https://github.com/civanorak/civanorak/issues/new?title=ttt%7Cmove%7C6&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A%20%E2%80%94%20the%20board%20on%20my%20profile%20updates%20automatically%20in%20~30%20seconds."><img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/ttt/empty.svg" width="70" height="70" alt="empty square 6" /></a></td><td><a href="https://github.com/civanorak/civanorak/issues/new?title=ttt%7Cmove%7C7&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A%20%E2%80%94%20the%20board%20on%20my%20profile%20updates%20automatically%20in%20~30%20seconds."><img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/ttt/empty.svg" width="70" height="70" alt="empty square 7" /></a></td><td><a href="https://github.com/civanorak/civanorak/issues/new?title=ttt%7Cmove%7C8&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A%20%E2%80%94%20the%20board%20on%20my%20profile%20updates%20automatically%20in%20~30%20seconds."><img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/ttt/empty.svg" width="70" height="70" alt="empty square 8" /></a></td></tr>
-</table>
-
-**Your move — you play ❌**
-
-Community **0** · Bot **0** · Draws **0** &nbsp;|&nbsp; [🔄 New game](https://github.com/civanorak/civanorak/issues/new?title=ttt%7Cnew&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A%20%E2%80%94%20the%20board%20on%20my%20profile%20updates%20automatically%20in%20~30%20seconds.)
-
-</div>
-<!-- TTT-BOARD-END -->
+- 🎼 **Orkestra** — closing Gate 0: landing page + payment flow + the first real outreach email to a Turkish e-commerce brand
+- 🏛️ **AGORA** — demo is live end-to-end; now talking to real merchants to validate the audit before building anything else
+- 📚 Multi-agent orchestration patterns — state machines, circuit breakers, and keeping 14 agents honest with each other
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
