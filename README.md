@@ -2,11 +2,13 @@
 
 <!-- ═══════════════════════ HEADER ═══════════════════════ -->
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Civan+%E2%80%94+they+call+me+Stark.;Software+Engineer+in+the+making.;Building+the+future%2C+one+commit+at+a+time.;Sometimes+you+gotta+run+before+you+can+walk." alt="Typing SVG" />
+<img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/stark-banner.svg" width="100%" alt="Civan 'Stark' Orak — Arc Reactor HUD banner" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=Software+Engineer+in+the+making.;Building+the+future%2C+one+commit+at+a+time.;Backend%2C+DevOps+%26+everything+in+between.;Sometimes+you+gotta+run+before+you+can+walk." alt="Typing SVG" />
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/divider.svg" width="100%" alt="divider" />
 
 <!-- ═══════════════════════ ABOUT ═══════════════════════ -->
 
@@ -14,7 +16,7 @@
 
 3rd-year Software Engineering student who treats side projects like startups. I build backend systems end-to-end — from the first SQL schema to the Nginx config on the VPS — because shipping beats theorizing. Current obsession: making the web readable for AI agents before everyone else realizes they need it.
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/divider.svg" width="100%" alt="divider" />
 
 <!-- ═══════════════════════ TECH STACK ═══════════════════════ -->
 
@@ -51,7 +53,7 @@
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/divider.svg" width="100%" alt="divider" />
 
 <!-- ═══════════════════════ STATS ═══════════════════════ -->
 
@@ -76,7 +78,7 @@
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/divider.svg" width="100%" alt="divider" />
 
 <!-- ═══════════════════════ CURRENT WORK ═══════════════════════ -->
 
@@ -86,7 +88,7 @@
 - 🚀 *[Placeholder — next project / experiment]*
 - 📚 *[Placeholder — what you're learning right now]*
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/divider.svg" width="100%" alt="divider" />
 
 <!-- ═══════════════════════ CONNECT ═══════════════════════ -->
 
