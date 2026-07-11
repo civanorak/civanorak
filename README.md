@@ -53,6 +53,21 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
+<!-- ═══════════════════════ PROJECTS ═══════════════════════ -->
+
+## 🚀 Featured Projects
+
+<div align="center">
+
+<a href="https://github.com/civanorak/AutoDocGenerator"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=civanorak&repo=AutoDocGenerator&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF" alt="AutoDocGenerator" /></a>
+<a href="https://github.com/civanorak/Portfolio"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=civanorak&repo=Portfolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF" alt="Portfolio" /></a>
+
+</div>
+
+> 🔒 **AGORA** *(private, in development)* — audit platform that scores e-commerce sites on **AI-agent readability**: crawls a store, diffs what human shoppers see vs. what AI agents can parse, and reports actionable fixes. FastAPI · PostgreSQL · rule engine.
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
 <!-- ═══════════════════════ STATS ═══════════════════════ -->
 
 ## 📊 System Diagnostics
@@ -85,6 +100,30 @@
 - ⚙️ **AGORA** — an audit platform that scores e-commerce sites on AI-agent readability (FastAPI + PostgreSQL + rule engine), because the next customers of every store will be agents, not browsers
 - 🚀 *[Placeholder — next project / experiment]*
 - 📚 *[Placeholder — what you're learning right now]*
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+<!-- ═══════════════════════ TIC-TAC-TOE ═══════════════════════ -->
+
+## 🎮 Beat My Bot — Tic-Tac-Toe
+
+You are ❌, my bot is ⭕. Click an empty square → an issue opens pre-filled → hit **Submit new issue** → the board updates here in ~30 seconds. The whole thing runs on GitHub Actions.
+
+<!-- TTT-BOARD-START -->
+<div align="center">
+
+<table>
+<tr><td><a href="https://github.com/civanorak/civanorak/issues/new?title=ttt%7Cmove%7C0&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A%20%E2%80%94%20the%20board%20on%20my%20profile%20updates%20automatically%20in%20~30%20seconds."><img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/ttt/empty.svg" width="70" height="70" alt="empty square 0" /></a></td><td><a href="https://github.com/civanorak/civanorak/issues/new?title=ttt%7Cmove%7C1&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A%20%E2%80%94%20the%20board%20on%20my%20profile%20updates%20automatically%20in%20~30%20seconds."><img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/ttt/empty.svg" width="70" height="70" alt="empty square 1" /></a></td><td><a href="https://github.com/civanorak/civanorak/issues/new?title=ttt%7Cmove%7C2&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A%20%E2%80%94%20the%20board%20on%20my%20profile%20updates%20automatically%20in%20~30%20seconds."><img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/ttt/empty.svg" width="70" height="70" alt="empty square 2" /></a></td></tr>
+<tr><td><a href="https://github.com/civanorak/civanorak/issues/new?title=ttt%7Cmove%7C3&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A%20%E2%80%94%20the%20board%20on%20my%20profile%20updates%20automatically%20in%20~30%20seconds."><img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/ttt/empty.svg" width="70" height="70" alt="empty square 3" /></a></td><td><a href="https://github.com/civanorak/civanorak/issues/new?title=ttt%7Cmove%7C4&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A%20%E2%80%94%20the%20board%20on%20my%20profile%20updates%20automatically%20in%20~30%20seconds."><img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/ttt/empty.svg" width="70" height="70" alt="empty square 4" /></a></td><td><a href="https://github.com/civanorak/civanorak/issues/new?title=ttt%7Cmove%7C5&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A%20%E2%80%94%20the%20board%20on%20my%20profile%20updates%20automatically%20in%20~30%20seconds."><img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/ttt/empty.svg" width="70" height="70" alt="empty square 5" /></a></td></tr>
+<tr><td><a href="https://github.com/civanorak/civanorak/issues/new?title=ttt%7Cmove%7C6&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A%20%E2%80%94%20the%20board%20on%20my%20profile%20updates%20automatically%20in%20~30%20seconds."><img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/ttt/empty.svg" width="70" height="70" alt="empty square 6" /></a></td><td><a href="https://github.com/civanorak/civanorak/issues/new?title=ttt%7Cmove%7C7&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A%20%E2%80%94%20the%20board%20on%20my%20profile%20updates%20automatically%20in%20~30%20seconds."><img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/ttt/empty.svg" width="70" height="70" alt="empty square 7" /></a></td><td><a href="https://github.com/civanorak/civanorak/issues/new?title=ttt%7Cmove%7C8&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A%20%E2%80%94%20the%20board%20on%20my%20profile%20updates%20automatically%20in%20~30%20seconds."><img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/ttt/empty.svg" width="70" height="70" alt="empty square 8" /></a></td></tr>
+</table>
+
+**Your move — you play ❌**
+
+Community **0** · Bot **0** · Draws **0** &nbsp;|&nbsp; [🔄 New game](https://github.com/civanorak/civanorak/issues/new?title=ttt%7Cnew&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A%20%E2%80%94%20the%20board%20on%20my%20profile%20updates%20automatically%20in%20~30%20seconds.)
+
+</div>
+<!-- TTT-BOARD-END -->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
