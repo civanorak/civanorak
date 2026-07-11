@@ -1,9 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-label="Civan Orak — Stark HUD banner">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-label="Civan Orak — crystal spider HUD banner">
   <defs>
-    <radialGradient id="coreGrad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#eaffff" stop-opacity="1"/>
-      <stop offset="35%" stop-color="#7ef0ff" stop-opacity="0.9"/>
-      <stop offset="70%" stop-color="#00D9FF" stop-opacity="0.45"/>
+    <linearGradient id="gemGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d9fffa"/>
+      <stop offset="40%" stop-color="#6ff2e2"/>
+      <stop offset="100%" stop-color="#17b8a6"/>
+    </linearGradient>
+    <linearGradient id="legGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef7fa"/>
+      <stop offset="100%" stop-color="#7e97a3"/>
+    </linearGradient>
+    <radialGradient id="spiderGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5cf0dd" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#00D9FF" stop-opacity="0.18"/>
       <stop offset="100%" stop-color="#00D9FF" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="sweepGrad" x1="0" y1="0" x2="1" y2="0">
@@ -46,37 +54,66 @@
     <animateTransform attributeName="transform" type="translate" from="0 0" to="1240 0" dur="7s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- ══ ARC REACTOR ══ -->
-  <g transform="translate(140 120)">
-    <circle r="80" fill="none" stroke="#0a2a35" stroke-width="1.5"/>
-    <circle r="80" fill="none" stroke="#00D9FF" stroke-width="1.5" stroke-dasharray="2 36" opacity="0.6"/>
+  <!-- ══ CRYSTAL SPIDER ══ -->
+  <g transform="translate(140 118)">
 
-    <!-- outer segmented ring, clockwise -->
-    <g>
-      <circle r="66" fill="none" stroke="#00D9FF" stroke-width="7" stroke-dasharray="20 12" opacity="0.85"/>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+    <!-- faint web backdrop -->
+    <g stroke="#00D9FF" fill="none" opacity="0.10">
+      <path d="M0 0 L0 -104 M0 0 L74 -74 M0 0 L104 0 M0 0 L74 74 M0 0 L0 104 M0 0 L-74 74 M0 0 L-104 0 M0 0 L-74 -74"/>
+      <path d="M0 -46 Q23 -39 33 -33 Q39 -23 46 0 Q39 23 33 33 Q23 39 0 46 Q-23 39 -33 33 Q-39 23 -46 0 Q-39 -23 -33 -33 Q-23 -39 0 -46 Z"/>
+      <path d="M0 -76 Q38 -65 54 -54 Q65 -38 76 0 Q65 38 54 54 Q38 65 0 76 Q-38 65 -54 54 Q-65 38 -76 0 Q-65 -38 -54 -54 Q-38 -65 0 -76 Z"/>
     </g>
 
-    <!-- middle ring, counter-clockwise -->
+    <!-- spider (gentle bob on its silk thread) -->
     <g>
-      <circle r="50" fill="none" stroke="#00b8d9" stroke-width="3" stroke-dasharray="7 9" opacity="0.8"/>
-      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="9s" repeatCount="indefinite"/>
-    </g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 5; 0 0" dur="5s" repeatCount="indefinite"/>
 
-    <!-- inner coil ticks -->
-    <g>
-      <circle r="35" fill="none" stroke="#00D9FF" stroke-width="9" stroke-dasharray="4 13" opacity="0.9"/>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="22s" repeatCount="indefinite"/>
-    </g>
+      <!-- silk thread -->
+      <line x1="0" y1="-150" x2="0" y2="-44" stroke="#bfeff5" stroke-width="1" opacity="0.4"/>
 
-    <!-- core glow -->
-    <circle r="27" fill="url(#coreGrad)" filter="url(#glow)">
-      <animate attributeName="r" values="25;29;25" dur="2.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="13" fill="#eaffff">
-      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.2s" repeatCount="indefinite"/>
-    </circle>
+      <!-- glow -->
+      <ellipse cx="0" cy="16" rx="46" ry="56" fill="url(#spiderGlow)" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3.5s" repeatCount="indefinite"/>
+      </ellipse>
+
+      <!-- legs -->
+      <g stroke="url(#legGrad)" stroke-width="4" stroke-linecap="round" fill="none">
+        <path d="M10 -18 L38 -48 L58 -90"/>
+        <path d="M12 -12 L50 -28 L82 -54"/>
+        <path d="M12 -4 L52 0 L86 -10"/>
+        <path d="M10 6 L44 28 L64 62"/>
+        <path d="M-10 -18 L-38 -48 L-58 -90"/>
+        <path d="M-12 -12 L-50 -28 L-82 -54"/>
+        <path d="M-12 -4 L-52 0 L-86 -10"/>
+        <path d="M-10 6 L-44 28 L-64 62"/>
+      </g>
+      <!-- crystal leg joints -->
+      <g fill="#eafcff">
+        <circle cx="38" cy="-48" r="2.4"/><circle cx="50" cy="-28" r="2.4"/><circle cx="52" cy="0" r="2.4"/><circle cx="44" cy="28" r="2.4"/>
+        <circle cx="-38" cy="-48" r="2.4"/><circle cx="-50" cy="-28" r="2.4"/><circle cx="-52" cy="0" r="2.4"/><circle cx="-44" cy="28" r="2.4"/>
+      </g>
+
+      <!-- fangs -->
+      <g stroke="url(#legGrad)" stroke-width="3" stroke-linecap="round">
+        <path d="M-5 -32 L-9 -44"/>
+        <path d="M5 -32 L9 -44"/>
+      </g>
+
+      <!-- head gem -->
+      <polygon points="0,-36 13,-20 0,-4 -13,-20" fill="url(#gemGrad)" stroke="#eafffb" stroke-width="1" stroke-opacity="0.8"/>
+      <path d="M0 -36 L0 -4 M-13 -20 L13 -20" stroke="#ffffff" stroke-width="0.8" opacity="0.45"/>
+
+      <!-- abdomen gem (marquise cut) -->
+      <path d="M0 -2 C 22 4 27 34 0 62 C -27 34 -22 4 0 -2 Z" fill="url(#gemGrad)" stroke="#eafffb" stroke-width="1.2" stroke-opacity="0.85"/>
+      <!-- facets -->
+      <g stroke="#ffffff" stroke-width="0.9" opacity="0.5" fill="none">
+        <path d="M0 -2 L-13 22 L0 62 M0 -2 L13 22 L0 62 M-13 22 L13 22 M0 -2 L0 62"/>
+      </g>
+      <!-- gem sparkle -->
+      <ellipse cx="-6" cy="14" rx="4" ry="7" fill="#ffffff" opacity="0.5" transform="rotate(-20 -6 14)">
+        <animate attributeName="opacity" values="0.25;0.75;0.25" dur="3.5s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
   </g>
 
   <!-- ══ TEXT BLOCK ══ -->
@@ -92,10 +129,10 @@
     </text>
 
     <text x="282" y="192" font-size="14" fill="#5fd9ef" letter-spacing="2" opacity="0.9">
-      ARC REACTOR: ONLINE
+      WEB SERVER: ONLINE
       <animate attributeName="opacity" values="0.9;0.55;0.9" dur="2.2s" repeatCount="indefinite"/>
     </text>
-    <rect x="472" y="180" width="9" height="14" fill="#00D9FF">
+    <rect x="452" y="180" width="9" height="14" fill="#00D9FF">
       <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
     </rect>
   </g>
@@ -124,5 +161,5 @@
     </rect>
   </g>
 
-  <text x="978" y="228" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#3b6f80" text-anchor="end" letter-spacing="2">STARK INDUSTRIES // PROFILE v2.0</text>
+  <text x="978" y="228" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#3b6f80" text-anchor="end" letter-spacing="2">STARK INDUSTRIES // PROFILE v2.1</text>
 </svg>
