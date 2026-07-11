@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200" role="img" aria-label="Civan Orak — Backend Developer">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4E8098"/>
+      <stop offset="100%" stop-color="#7fa8ba"/>
+    </linearGradient>
+  </defs>
+
+  <!-- card -->
+  <rect x="1" y="1" width="998" height="198" rx="12" fill="#f7f8fb" stroke="#e3e7ee" stroke-width="2"/>
+
+  <!-- ── left: name block ── -->
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="70" y="95" font-size="42" font-weight="600" fill="#1f2a3a" letter-spacing="1" opacity="0">
+      Civan Orak
+      <animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.8s" fill="freeze"/>
+    </text>
+
+    <!-- accent rule draws in -->
+    <rect x="72" y="110" width="0" height="3" rx="1.5" fill="url(#accent)">
+      <animate attributeName="width" from="0" to="210" begin="0.7s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" values="0;210"/>
+    </rect>
+
+    <!-- rotating role line (slow crossfade) -->
+    <g font-size="19" fill="#5b6b7e" letter-spacing="0.5">
+      <text x="72" y="152" opacity="0">
+        Backend Developer
+        <animate attributeName="opacity" values="0;1;1;0;0;0;0" keyTimes="0;0.04;0.28;0.33;0.61;0.95;1" dur="15s" begin="1.2s" repeatCount="indefinite"/>
+      </text>
+      <text x="72" y="152" opacity="0">
+        Software Engineering Student
+        <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.28;0.33;0.61;0.66;0.95;1" dur="15s" begin="1.2s" repeatCount="indefinite"/>
+      </text>
+      <text x="72" y="152" opacity="0">
+        FastAPI · PostgreSQL · Docker
+        <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.61;0.66;0.94;0.95;0.99;1" dur="15s" begin="1.2s" repeatCount="indefinite"/>
+      </text>
+    </g>
+  </g>
+
+  <!-- ── right: self-drawing line chart ── -->
+  <g>
+    <!-- faint gridlines -->
+    <g stroke="#e3e7ee" stroke-width="1">
+      <line x1="690" y1="70" x2="940" y2="70"/>
+      <line x1="690" y1="110" x2="940" y2="110"/>
+      <line x1="690" y1="150" x2="940" y2="150"/>
+    </g>
+
+    <!-- soft area under the line -->
+    <path d="M700 150 L760 128 L815 138 L870 96 L930 72 L930 150 Z" fill="#4E8098" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.08" begin="2.3s" dur="0.6s" fill="freeze"/>
+    </path>
+
+    <!-- line draws itself once -->
+    <path d="M700 150 L760 128 L815 138 L870 96 L930 72" fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="260" stroke-dashoffset="260">
+      <animate attributeName="stroke-dashoffset" from="260" to="0" begin="0.7s" dur="1.6s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1" values="260;0"/>
+    </path>
+
+    <!-- data points -->
+    <g fill="#ffffff" stroke="#4E8098" stroke-width="1.5" opacity="0">
+      <circle cx="760" cy="128" r="3"/>
+      <circle cx="815" cy="138" r="3"/>
+      <circle cx="870" cy="96" r="3"/>
+      <animate attributeName="opacity" from="0" to="1" begin="2.1s" dur="0.5s" fill="freeze"/>
+    </g>
+
+    <!-- end point, gentle pulse -->
+    <circle cx="930" cy="72" r="4.5" fill="#4E8098" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.3s" dur="0.4s" fill="freeze"/>
+      <animate attributeName="r" values="4.5;5.5;4.5" dur="3.5s" begin="2.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

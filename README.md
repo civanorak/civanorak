@@ -1,8 +1,6 @@
 <div align="center">
 
-# Civan Orak
-
-**Software Engineering Student · Backend Developer**
+<img src="https://raw.githubusercontent.com/civanorak/civanorak/main/assets/banner.svg" width="100%" alt="Civan Orak — Backend Developer" />
 
 I build backend systems end-to-end — from database schema to production deployment.
 
