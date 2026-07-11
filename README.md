@@ -2,7 +2,7 @@
 
 <!-- ═══════════════════════ HEADER ═══════════════════════ -->
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Civan+%E2%80%94+they+call+me+Stark.;Software+Engineer+in+the+making.;Building+the+future%2C+one+commit+at+a+time.;Sometimes+you+gotta+run+before+you+can+walk." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Civan.;Software+Engineer+in+the+making.;Building+the+future%2C+one+commit+at+a+time.;Strong+enough+to+bring+back+what+time+has+taken." alt="Typing SVG" />
 
 </div>
 
@@ -23,31 +23,31 @@
 ### Languages
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=00D9FF)
-![Java](https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=00D9FF)
-![C](https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c&logoColor=00D9FF)
-![C++](https://img.shields.io/badge/C++-0D1117?style=for-the-badge&logo=cplusplus&logoColor=00D9FF)
-![SQL](https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=00D9FF)
+![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=58A6FF)
+![Java](https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=58A6FF)
+![C](https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c&logoColor=58A6FF)
+![C++](https://img.shields.io/badge/C++-0D1117?style=for-the-badge&logo=cplusplus&logoColor=58A6FF)
+![SQL](https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=58A6FF)
 
 </div>
 
 ### Frameworks & Databases
 <div align="center">
 
-![FastAPI](https://img.shields.io/badge/FastAPI-0D1117?style=for-the-badge&logo=fastapi&logoColor=00D9FF)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=00D9FF)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-0D1117?style=for-the-badge&logo=sqlalchemy&logoColor=00D9FF)
+![FastAPI](https://img.shields.io/badge/FastAPI-0D1117?style=for-the-badge&logo=fastapi&logoColor=58A6FF)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=58A6FF)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-0D1117?style=for-the-badge&logo=sqlalchemy&logoColor=58A6FF)
 
 </div>
 
 ### DevOps & Infrastructure
 <div align="center">
 
-![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=00D9FF)
-![Nginx](https://img.shields.io/badge/Nginx-0D1117?style=for-the-badge&logo=nginx&logoColor=00D9FF)
-![Linux](https://img.shields.io/badge/VPS%20%2F%20Linux-0D1117?style=for-the-badge&logo=linux&logoColor=00D9FF)
-![GitHub Actions](https://img.shields.io/badge/CI%2FCD-0D1117?style=for-the-badge&logo=githubactions&logoColor=00D9FF)
-![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=00D9FF)
+![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=58A6FF)
+![Nginx](https://img.shields.io/badge/Nginx-0D1117?style=for-the-badge&logo=nginx&logoColor=58A6FF)
+![Linux](https://img.shields.io/badge/VPS%20%2F%20Linux-0D1117?style=for-the-badge&logo=linux&logoColor=58A6FF)
+![GitHub Actions](https://img.shields.io/badge/CI%2FCD-0D1117?style=for-the-badge&logo=githubactions&logoColor=58A6FF)
+![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=58A6FF)
 
 </div>
 
@@ -79,8 +79,8 @@ Classic analytics assume a human with a JS-executing browser; bot protection blo
 
 <div align="center">
 
-<a href="https://github.com/civanorak/AutoDocGenerator"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=civanorak&repo=AutoDocGenerator&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF" alt="AutoDocGenerator" /></a>
-<a href="https://github.com/civanorak/Portfolio"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=civanorak&repo=Portfolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF" alt="Portfolio" /></a>
+<a href="https://github.com/civanorak/AutoDocGenerator"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=civanorak&repo=AutoDocGenerator&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="AutoDocGenerator" /></a>
+<a href="https://github.com/civanorak/Portfolio"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=civanorak&repo=Portfolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="Portfolio" /></a>
 
 </div>
 
@@ -92,12 +92,12 @@ Classic analytics assume a human with a JS-executing browser; bot protection blo
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=civanorak&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF" alt="GitHub Stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=civanorak&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF" alt="Top Languages" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=civanorak&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="GitHub Stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=civanorak&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF" alt="Top Languages" />
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=civanorak&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=civanorak&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak" />
 
 </div>
 
@@ -127,13 +127,13 @@ Classic analytics assume a human with a JS-executing browser; bot protection blo
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00D9FF)](https://github.com/civanorak)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00D9FF)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=googlechrome&logoColor=00D9FF)](https://YOUR_PORTFOLIO.com)
-[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=00D9FF)](mailto:orakcivan07@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF)](https://github.com/civanorak)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=58A6FF)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=googlechrome&logoColor=58A6FF)](https://YOUR_PORTFOLIO.com)
+[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=58A6FF)](mailto:orakcivan07@gmail.com)
 
 <br/>
 
-*"Part of the journey is the end. But we're nowhere near the end."*
+*"I believe strength can bring back what time has already taken."*
 
 </div>
