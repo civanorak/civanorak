@@ -2,7 +2,7 @@
 
 <!-- ═══════════════════════ HEADER ═══════════════════════ -->
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Civan.;Software+Engineer+in+the+making.;Building+the+future%2C+one+commit+at+a+time.;Strong+enough+to+bring+back+what+time+has+taken." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Civan.;Software+Engineer+in+the+making.;Building+the+future%2C+one+commit+at+a+time." alt="Typing SVG" />
 
 </div>
 
@@ -10,7 +10,7 @@
 
 <!-- ═══════════════════════ ABOUT ═══════════════════════ -->
 
-## ⚡ About Me
+## About Me
 
 3rd-year Software Engineering student who treats side projects like startups. I build backend systems end-to-end — from the first SQL schema to the Nginx config on the VPS — because shipping beats theorizing. Current obsession: making the web readable for AI agents before everyone else realizes they need it.
 
@@ -55,34 +55,19 @@
 
 <!-- ═══════════════════════ PROJECTS ═══════════════════════ -->
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### 🎼 Orkestra — Autonomous Agent Corporation &nbsp;`🔒 private · in active development`
 
 An autonomous multi-agent system that detects the digital problems of small e-commerce brands **before they notice them** — then packages the fix and sells it as a monthly subscription service.
 
-- **Pipeline:** Decoder (SEO / performance / traffic / competitor intel) → Outreach Master (personalized DM + email pitch) → Solver (client-ready HTML report + code package)
-- **5 of 14 agents live** — Decoder, Sentinel, Outreach Master, Solver, UX Surgeon; the rest unlock behind revenue gates
-- **1650+ green tests** and a measurement-first honesty rule: if it wasn't measured, it never reaches a report
-- Python · asyncio · FastAPI · Pydantic v2 · Playwright · Lighthouse · SQLite WAL
+**How it works:** feed it a brand URL. The **Decoder** measures everything measurable — PageSpeed on mobile and desktop, SEO tags, real traffic through a multi-source confidence band, competitor tech fingerprints, trend signals, even the store's icon set against Jakob's Law expectations. The **Outreach Master** turns those findings into a personalized Instagram DM and an HTML email pitch. The **Solver** builds the client-ready deliverable: an 11-section HTML report, a modular vanilla-JS code package, and a live preview overlaid on the client's own site.
 
-### 🏛️ AGORA — Analytics for the Agentic Web &nbsp;`🔒 private · demo-ready`
-
-Classic analytics assume a human with a JS-executing browser; bot protection blocks everything else. Neither sees AI shopping agents (ChatGPT, Claude, Perplexity…) crawling a store. AGORA makes that traffic visible — and audits whether a storefront is even *readable* to agents in the first place.
-
-- **Sees agent traffic** — drop-in ASGI middleware classifies every request (`{verdict, confidence, evidence[]}`) against YAML signatures and streams it to a live dashboard
-- **Audits any storefront** — diffs the real catalog against what an agent can actually parse: script-to-content ratio, extractable-text %, schema.org / robots.txt / llms.txt checklist
-- **Generates the fix** — a ready-to-host `/llms.txt` for the audited store, downloadable straight from the dashboard
-- FastAPI · React + Vite · rule-engine classifier · Playwright e2e
-
-### More
-
-<div align="center">
-
-<a href="https://github.com/civanorak/AutoDocGenerator"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=civanorak&repo=AutoDocGenerator&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="AutoDocGenerator" /></a>
-<a href="https://github.com/civanorak/Portfolio"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=civanorak&repo=Portfolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="Portfolio" /></a>
-
-</div>
+- **5 of 14 agents live** — Decoder, Sentinel (price-gap / catalog-gap alerts), Outreach Master, Solver, UX Surgeon; the other nine (CEO through Legal) unlock behind revenue gates
+- **1650+ green tests** and a measurement-first honesty rule: every finding carries a `*_verified` flag — if it wasn't measured, it never reaches a report, and unverified financials render as silence instead of guesses
+- **Resilient by design** — every external call is wrapped in a 45-second circuit breaker, so one failing API (quota, 429, browser spin-up) can never take down the pipeline; the report ships either way
+- **Hardened API surface** — SSRF and DNS-rebinding guards, CSP nonce, per-IP rate limiting, sanitized HTML output
+- Python · asyncio · FastAPI · Pydantic v2 · Playwright · Lighthouse · Firecrawl · SQLite WAL
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
