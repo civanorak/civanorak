@@ -39,15 +39,7 @@ Python · C# · Java · C/C++ · SQL (Microsoft SQL Server) · FastAPI · React 
 
 &nbsp;
 
-`/ 04 — KATKI GRAFİĞİ`
-
-<div align="center">
-  <img src="https://ghchart.rshah.org/2b4c7e/civanorak" width="100%" alt="Civan Orak'ın son bir yıllık GitHub katkı grafiği" />
-</div>
-
-&nbsp;
-
-`/ 05 — İLETİŞİM`
+`/ 04 — İLETİŞİM`
 
 **[Portfolio](https://portfolio-six-iota-ro8cj8jhcx.vercel.app)** · [LinkedIn](https://www.linkedin.com/in/civanorak) · [orakcivan07@gmail.com](mailto:orakcivan07@gmail.com)
 
