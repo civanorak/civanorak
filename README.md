@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
   <img src="assets/header.svg" width="100%" alt="Civan Orak — yapay zekâ ajanlarının gerçek iş yaptığı sistemler kuruyorum." />
   <img src="assets/frieze.jpg" width="100%" alt="Amathus lahdi friz detayı — at arabalı geçit sahnesi (Met Museum, CC0)" />
 </div>
@@ -41,6 +41,6 @@ Python · C# · Java · C/C++ · SQL (Microsoft SQL Server) · FastAPI · React 
 
 `/ 04 — İLETİŞİM`
 
-**[Portfolio](https://portfolio-six-iota-ro8cj8jhcx.vercel.app)** · [LinkedIn](https://www.linkedin.com/in/civanorak) · [orakcivan07@gmail.com](mailto:orakcivan07@gmail.com)
+**[Portfolio](https://civanorak.vercel.app)** · [LinkedIn](https://www.linkedin.com/in/civanorak) · [orakcivan07@gmail.com](mailto:orakcivan07@gmail.com)
 
 <sub>Friz: Amathus lahdi (detay), Kıbrıs, MÖ 5. yüzyıl — The Metropolitan Museum of Art, Open Access (CC0).</sub>
