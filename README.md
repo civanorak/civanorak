@@ -39,11 +39,10 @@ Python · C# · Java · C/C++ · SQL (Microsoft SQL Server) · FastAPI · React 
 
 &nbsp;
 
-`/ 04 — İSTATİSTİKLER`
+`/ 04 — KATKI GRAFİĞİ`
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=civanorak&show_icons=true&hide_border=true&bg_color=f6f3ec&title_color=171512&text_color=6e6a61&icon_color=2b4c7e&ring_color=2b4c7e" alt="GitHub istatistikleri" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=civanorak&layout=compact&hide_border=true&bg_color=f6f3ec&title_color=171512&text_color=6e6a61" alt="En çok kullanılan diller" />
+  <img src="https://ghchart.rshah.org/2b4c7e/civanorak" width="100%" alt="Civan Orak'ın son bir yıllık GitHub katkı grafiği" />
 </div>
 
 &nbsp;
